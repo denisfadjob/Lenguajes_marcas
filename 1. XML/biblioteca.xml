@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<biblioteca>
+
+    <libro id="1">
+        <titulo>contenido</titulo>
+        <autor>contenido</autor>
+        <isbn>xxx</isbn>   
+    </libro>
+    <libro id="2">
+        <titulo>METRO 2034</titulo>
+        <autor>DMITRY GLUKHOVSKY</autor>
+        <isbn>xxx</isbn>   
+    </libro>
+
+</biblioteca>
+
+</xml>

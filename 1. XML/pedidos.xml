@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<pedidos>
+
+    <pedido id="PED001">
+        <datos_cliente>
+            <nombre>Juan García López</nombre>
+            <email>juan.garcia@email.com</email>
+            <telefono>612345678</telefono>
+        </datos_cliente>
+        <fecha>2026-09-10</fecha>
+        <direccion_envio>Calle Mayor 23, 3ºB, 28013 Madrid</direccion_envio>
+
+        <lista_productos>
+
+            <producto id="PR01">
+                <nombre>Portátil IdeaPad 3</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>649.99</precio_unitario>
+            </producto>
+
+            <producto id="PR02">
+                <nombre>Ratón inalámbrico MX Master 3S</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>99.90</precio_unitario>
+            </producto>
+
+        </lista_productos>
+
+        <total>749.89</total>
+
+    </pedido>
+
+    <pedido id="PED002">
+        <datos_cliente>
+            <nombre>Carlos Martínez Ruiz</nombre>
+            <email>carlos.martinez@email.com</email>
+            <telefono>698765432</telefono>
+        </datos_cliente>
+        <fecha>2026-09-15</fecha>
+        <direccion_envio>Avenida de la Constitución 45, 41001 Sevilla</direccion_envio>
+
+        <lista_productos>
+
+            <producto id="R03">
+                <nombre>Monitor UltraSharp 27"</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>289.00</precio_unitario>
+            </producto>
+
+            <producto id="R04">
+                <nombre>SSD NVMe 1TB 970 EVO Plus</nombre>
+                <cantidad>2</cantidad>
+                <precio_unitario>89.95</precio_unitario>
+            </producto>
+
+            <producto id="R05">
+                <nombre>Teclado mecánico Keychron K2</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>79.90</precio_unitario>
+            </producto>
+
+        </lista_productos>
+
+        <total>548.80</total>
+
+    </pedido>
+
+    <pedido id="PED003">
+        <datos_cliente>
+            <nombre>Sofía Fernández Pérez</nombre>
+            <email>sofia.fernandez@email.com</email>
+            <telefono>634567890</telefono>
+        </datos_cliente>
+        <fecha>2026-09-05</fecha>
+        <direccion_envio>Plaza del Ayuntamiento 8, 46002 Valencia</direccion_envio>
+
+        <lista_productos>
+
+            <producto id="PR06">
+                <nombre>Webcam Logitech C920 HD Pro</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>69.99</precio_unitario>
+            </producto>
+
+            <producto id="PR07">
+                <nombre>Auriculares Sony WH-1000XM5</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>349.00</precio_unitario>
+            </producto>
+
+        </lista_productos>
+
+        <total>418.99</total>
+
+    </pedido>
+
+</pedidos>

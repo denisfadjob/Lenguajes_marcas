@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<tienda>
+    
+    <informacion_general>
+        <nombre>Tienda Informática</nombre>
+        <cif>B12345678</cif>
+        <dirección>Calle Principal 123, 28013 Madrid</dirección>
+        <teléfono>912345678</teléfono>
+        <email>info@tiendainformatica.com</email>
+    </informacion_general>
+
+    <catalogo_productos>
+
+        <producto id="PROD01">
+            <nombre>Portátil IdeaPad 3</nombre>
+            <categoria>Portátiles</categoria>
+            <precio>649.99</precio>
+            <stock>12</stock>
+            <estado>Disponible</estado>
+        </producto>
+
+        <producto id="PROD02">
+            <nombre>Ratón inalámbrico MX Master 3S</nombre>
+            <precio>99.90</precio>
+            <stock>25</stock>
+            <categoria>Periféricos</categoria>
+            <estado>Disponible</estado>
+        </producto>
+
+        <producto id="PROD03">
+            <nombre>Monitor UltraSharp 27"</nombre>
+            <precio>289.00</precio>
+            <stock>8</stock>
+            <categoria>Monitores</categoria>
+            <estado>Disponible</estado>
+        </producto>
+
+        <producto id="PROD04">
+            <nombre>SSD NVMe 1TB 970 EVO Plus</nombre>
+            <precio>89.95</precio>
+            <stock>30</stock>
+            <categoria>Almacenamiento</categoria>
+            <estado>Disponible</estado>
+        </producto>
+
+        <producto id="PROD05">
+            <nombre>Teclado mecánico Keychron K2</nombre>
+            <precio>79.90</precio>
+            <stock>15</stock>
+            <categoria>Periféricos</categoria>
+            <estado>Disponible</estado>
+        </producto>
+
+    </catalogo_productos>
+    
+    <clientes>
+
+        <cliente id="CLI01">
+            <nombre>Juan García López</nombre>
+            <apellido1>García</apellido1>
+            <apellido2>López</apellido2>
+            <email>juan.garcia@email.com</email>
+            <telefono>612345678</telefono>
+            <direccion>Calle Mayor 23, 3ºB, 28013 Madrid</direccion>
+        </cliente>
+        <cliente id="CLI02">
+            <nombre>Carlos Martínez Ruiz</nombre>
+            <apellido1>Martínez</apellido1>
+            <apellido2>Ruiz</apellido2>
+            <email>carlos.martinez@email.com</email>
+            <telefono>698765432</telefono>
+            <direccion>Avenida Principal 45, 1ºA, 28013 Madrid</direccion>
+        </cliente>
+        <cliente id="CLI03">
+            <nombre>María Fernández Gómez</nombre>
+            <apellido1>Fernández</apellido1>
+            <apellido2>Gómez</apellido2>
+            <email>maria.fernandez@email.com</email>
+            <telefono>654321098</telefono>
+            <direccion>Calle Secundaria 12, 2ºC, 28013 Madrid</direccion>
+        </cliente>
+        <cliente id="CLI04">
+            <nombre>Laura Sánchez Pérez</nombre>
+            <apellido1>Sánchez</apellido1>
+            <apellido2>Pérez</apellido2>
+            <email>laura.sanchez@email.com</email>
+            <telefono>612345678</telefono>
+            <direccion>Calle Principal 1, 1ºA, 28013 Madrid</direccion>
+        </cliente>
+
+    </clientes>
+    
+    <pedidos>
+
+        <pedido id="PED001">
+            <cliente_id>CLI01</cliente_id>
+            <fecha>2026-09-10</fecha>
+            <direccion_envio>Calle Mayor 23, 3ºB, 28013 Madrid</direccion_envio>
+            <estado>Enviado</estado>
+            <lista_productos>
+                <producto id="PROD01">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>649.99</precio_unitario>
+                </producto>
+
+                <producto id="PROD02">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>99.90</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>749.89</total>
+        </pedido>
+
+        <pedido id="PED002">
+            <cliente_id>CLI02</cliente_id>
+            <fecha>2026-09-15</fecha>
+            <direccion_envio>Avenida de la Constitución 45, 41001 Sevilla</direccion_envio>
+            <estado>Enviado</estado>
+            <lista_productos>
+                <producto id="PROD03">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>289.00</precio_unitario>
+                </producto>
+
+                <producto id="PROD04">
+                    <cantidad>2</cantidad>
+                    <precio_unitario>89.95</precio_unitario>
+                </producto>
+
+                <producto id="PROD05">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>79.90</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>548.80</total>
+        </pedido>
+
+        <pedido id="PED003">
+            <cliente_id>CLI03</cliente_id>
+            <fecha>2026-09-20</fecha>
+            <direccion_envio>Calle Secundaria 12, 2ºC, 28013 Madrid</direccion_envio>
+            <estado>Enviado</estado>
+            <lista_productos>
+
+                <producto id="PROD01">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>649.99</precio_unitario>
+                </producto>
+
+                <producto id="PROD02">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>99.90</precio_unitario>
+                </producto>
+
+            </lista_productos>
+            <total>749.89</total>
+        </pedido>
+
+        <pedido id="PED004">
+            <cliente_id>CLI04</cliente_id>
+            <fecha>2026-09-25</fecha>
+            <direccion_envio>Calle Principal 1, 1ºA, 28013 Madrid</direccion_envio>
+            <estado>Enviado</estado>
+            <lista_productos>
+                <producto id="PROD03">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>289.00</precio_unitario>
+                </producto>
+
+                <producto id="PROD04">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>89.95</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>378.95</total>
+        </pedido>
+
+    </pedidos>
+
+</tienda>

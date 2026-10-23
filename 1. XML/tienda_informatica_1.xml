@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<tienda>
+
+    <producto id="P01">
+        <nombre>Portátil IdeaPad 3</nombre>
+        <marca>Lenovo</marca>
+        <precio>649.99</precio>
+        <stock>12</stock>
+        <categoria>Portátiles</categoria>
+    </producto>
+
+    <producto id="P02">
+        <nombre>Ratón inalámbrico MX Master 3S</nombre>
+        <marca>Logitech</marca>
+        <precio>99.90</precio>
+        <stock>25</stock>
+        <categoria>Periféricos</categoria>
+    </producto>
+
+    <producto id="P03">
+        <nombre>Monitor UltraSharp 27"</nombre>
+        <marca>Dell</marca>
+        <precio>289.00</precio>
+        <stock>8</stock>
+        <categoria>Monitores</categoria>
+    </producto>
+
+    <producto id="P04">
+        <nombre>SSD NVMe 1TB 970 EVO Plus</nombre>
+        <marca>Samsung</marca>
+        <precio>89.95</precio>
+        <stock>30</stock>
+        <categoria>Almacenamiento</categoria>
+    </producto>
+
+    <producto id="P05">
+        <nombre>Teclado mecánico Keychron K2</nombre>
+        <marca>Keychron</marca>
+        <precio>79.90</precio>
+        <stock>15</stock>
+        <categoria>Periféricos</categoria>
+    </producto>
+
+</tienda>

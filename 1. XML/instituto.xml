@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+
+<instituto>
+
+    <alumnos>
+        
+        <alumno id="AL01">
+            <nombre>Laura</nombre>
+            <apellidos>García López</apellidos>
+            <edad>16</edad>
+            <curso>1º Bachillerato</curso>
+            <asignaturas>
+                <asignatura id="AS01">
+                    <nombre>Matemáticas</nombre>
+                    <nota>8.5</nota>
+                </asignatura>
+
+                <asignatura id="AS02">
+                    <nombre>Lengua Castellana</nombre>
+                    <nota>7.0</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="AL02">
+            <nombre>Carlos</nombre>
+            <apellidos>Martínez Ruiz</apellidos>
+            <edad>17</edad>
+            <curso>2º Bachillerato</curso>
+            <asignaturas>
+                <asignatura id="AS03">
+                    <nombre>Historia</nombre>
+                    <nota>6.5</nota>
+                </asignatura>
+
+                <asignatura id="AS04">
+                    <nombre>Inglés</nombre>
+                    <nota>9.0</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="AL03">
+            <nombre>Sofía</nombre>
+            <apellidos>Fernández Pérez</apellidos>
+            <edad>15</edad>
+            <curso>4º ESO</curso>
+            <asignaturas>
+                <asignatura id="AS03">
+                    <nombre>Historia</nombre>
+                    <nota>8.0</nota>
+                </asignatura>
+
+                <asignatura id="AS04">
+                    <nombre>Inglés</nombre>
+                    <nota>7.5</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="AL04">
+            <nombre>Diego</nombre>
+            <apellidos>Sánchez Gómez</apellidos>
+            <edad>16</edad>
+            <curso>1º Bachillerato</curso>
+            <asignaturas>
+                <asignatura id="AS01">
+                    <nombre>Matemáticas</nombre>
+                    <nota>5.5</nota>
+                </asignatura>
+
+                <asignatura id="AS02">
+                    <nombre>Lengua Castellana</nombre>
+                    <nota>6.0</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+    </alumnos>
+
+    <profesores>
+
+        <profesor id="PF01">
+            <nombre>Ana Belén Rodríguez</nombre>
+        </profesor>
+
+        <profesor id="PF02">
+            <nombre>Javier Morales</nombre>
+        </profesor>
+
+        <profesor id="PF03">
+            <nombre>Elena Vargas</nombre>
+        </profesor>
+
+    </profesores>
+
+    <asignaturas>
+        <asignatura id="AS01">
+            <nombre>Matemáticas</nombre>
+        </asignatura>
+
+        <asignatura id="AS02">
+            <nombre>Lengua Castellana</nombre>
+        </asignatura>
+
+        <asignatura id="AS03">
+            <nombre>Historia</nombre>
+        </asignatura>
+
+        <asignatura id="AS04">
+            <nombre>Inglés</nombre>
+        </asignatura>
+        
+    </asignaturas>
+
+</instituto>
